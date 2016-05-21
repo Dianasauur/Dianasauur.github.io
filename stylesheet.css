@@ -1,0 +1,27 @@
+body {
+	background-image: url(big_game.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	background-attachment: fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	webkit-background-size:cover;
+}
+h1 {
+	font-family: cursive;
+	color: #DEBE20;
+	position: static;
+	font-size: 2.7em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 4.4em;
+	color:#DEBE20;
+	font-family: cursive;
+	bottom: 0em;
+	position: fixed;
+	
+}
