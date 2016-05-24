@@ -1,3 +1,19 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #ffe699;
+}
+
+/** {
+	border: 3px solid white;
+}*/
 body {
 	background-image: url(big_game.jpg);
 	background-repeat: no-repeat;
@@ -13,43 +29,77 @@ h1 {
 	font-family: "Brush Script MT", cursive;
 	color: #ffe699;
 	font-size: 4.0em;
+	position: relative;
+	margin: auto;
 	text-align: center;
-	position: static;
+	top: 32px;
+
+
 	line-height: 0.5em;
 }
-
 h2 {
-	font-size: 2.85em;
-	color:#ffe699;
+	position: relative;
+	margin: auto;
+	top: 10px;
 	font-family: cursive;
-	bottom: 0.5em;
-	
-	position: fixed;
-	text-align: center;
-	
-}
-button {
-	background-size: 50px;
-	font-family: Cursive;
-	color: #ffe699;
-	left: 35em;
-	padding: 10px;
-	bottom: 420px;
-	border-radius: 12px;
-	background-color: black;
-	width: 250px;
-	height: 50px;
-	font-size: 15px;
-	position: fixed;
 
 }
-/* div {
-	border-radius: 5px;
-	border: 2px solid #5B4D05;
-	background-color: #625307;
-	height: 50px;
-	width: 120px;
-	margin: auto;
-	bottom: 0px;
-	text-align: center;
-} */
+
+a:hover {
+	color: white;
+	}
+#about {
+	text-decoration: none;
+	font-family: Cursive;
+	position: relative;
+	top: 30px;
+	left: 5px;
+	font-size: 30px;
+	color:#ffe699;
+
+} 
+div {
+	display: inline-block;
+}
+
+
+#navbar {
+	background-color: gray;
+	height:70px;
+	width: 100%;
+	position: absolute;
+	opacity: .4;
+	display: inline-block;
+	
+}
+#header {
+	position: relative;
+	left: 2.0em;
+	float: center;
+}
+#Diana {
+	top: 33px;
+	left: 5px;
+	font-size: 30px;
+	
+}
+
+#Resume {
+	font-size: 30px;
+	top: 33px;
+	left: 4.0em;
+}
+
+#ContactMe {
+	font-size: 30px;
+	top: 33px;
+	left: 11.0em;
+}
+#Pictures {
+	font-size: 30px;
+	top: 33px;
+	left: 15em;
+}
+
+
+
