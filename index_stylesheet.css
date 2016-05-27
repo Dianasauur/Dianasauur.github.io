@@ -14,6 +14,15 @@ a {
 /** {
 	border: 3px solid white;
 }*/
+ img {
+        box-shadow: 10px 10px 5px;
+        border-radius: 15px;
+        width:300px;
+        height: 300px;
+        opacity: .9;
+        left: 50%;
+        top: 50%;
+    }
 body {
 	background-image: url(big_game.jpg);
 	background-repeat: no-repeat;
